@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OnlineAssessmentTool.Application\OnlineAssessmentTool.Application.csproj" />
+    <ProjectReference Include="..\OnlineAssessmentTool.Domain\OnlineAssessmentTool.Domain.csproj" />
+    <ProjectReference Include="..\OnlineAssessmentTool.Shared\OnlineAssessmentTool.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

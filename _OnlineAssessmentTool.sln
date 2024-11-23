@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineAssessmentTool.Api", "OnlineAssessmentTool\OnlineAssessmentTool.Api.csproj", "{D032C142-26F5-4A5C-B6FB-F8F69736E9F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineAssessmentTool.Tests", "OnlineAssessmentToolNUnitTest\OnlineAssessmentTool.Tests.csproj", "{E086C40A-644D-4070-BA72-4E5EFD5E38F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineAssessmentTool.Domain", "OnlineAssessmentTool.Domain\OnlineAssessmentTool.Domain.csproj", "{D06603DB-B200-43E9-AEBF-48B52509F64D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineAssessmentTool.Shared", "OnlineAssessmentTool.Shared\OnlineAssessmentTool.Shared.csproj", "{838BFEEF-FFE9-41BC-AEA6-B924699C68EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineAssessmentTool.Application", "OnlineAssessmentTool.Application\OnlineAssessmentTool.Application.csproj", "{0752877F-FA91-4F77-B2BB-7FB4DE26187C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineAssessmentTool.Infrastructure", "OnlineAssessmentTool.Infrastructure\OnlineAssessmentTool.Infrastructure.csproj", "{7BD2D80D-CD2E-4A40-8D94-227961E287C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D032C142-26F5-4A5C-B6FB-F8F69736E9F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D032C142-26F5-4A5C-B6FB-F8F69736E9F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D032C142-26F5-4A5C-B6FB-F8F69736E9F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D032C142-26F5-4A5C-B6FB-F8F69736E9F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E086C40A-644D-4070-BA72-4E5EFD5E38F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E086C40A-644D-4070-BA72-4E5EFD5E38F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E086C40A-644D-4070-BA72-4E5EFD5E38F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E086C40A-644D-4070-BA72-4E5EFD5E38F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D06603DB-B200-43E9-AEBF-48B52509F64D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D06603DB-B200-43E9-AEBF-48B52509F64D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D06603DB-B200-43E9-AEBF-48B52509F64D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D06603DB-B200-43E9-AEBF-48B52509F64D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{838BFEEF-FFE9-41BC-AEA6-B924699C68EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{838BFEEF-FFE9-41BC-AEA6-B924699C68EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{838BFEEF-FFE9-41BC-AEA6-B924699C68EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{838BFEEF-FFE9-41BC-AEA6-B924699C68EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0752877F-FA91-4F77-B2BB-7FB4DE26187C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0752877F-FA91-4F77-B2BB-7FB4DE26187C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0752877F-FA91-4F77-B2BB-7FB4DE26187C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0752877F-FA91-4F77-B2BB-7FB4DE26187C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BD2D80D-CD2E-4A40-8D94-227961E287C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BD2D80D-CD2E-4A40-8D94-227961E287C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BD2D80D-CD2E-4A40-8D94-227961E287C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BD2D80D-CD2E-4A40-8D94-227961E287C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {872044DF-FFD3-4542-A826-308DDA227AB9}
+	EndGlobalSection
+EndGlobal
